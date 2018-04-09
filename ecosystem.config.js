@@ -27,7 +27,7 @@ module.exports = {
       port : '747',
       ref  : 'origin/master',
       repo : 'https://github.com/adesombergh/deploy-test-two.git',
-      path : '/home/deba/deploy-test',
+      path : '/var/www/deploy-test',
       'post-deploy' : 'npm install && pm2 startOrRestart ecosystem.config.js --env production'
     }
   }
